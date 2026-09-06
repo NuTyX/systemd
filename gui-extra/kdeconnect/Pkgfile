@@ -18,15 +18,12 @@ run=(qqc2-desktop-style)
 set=(kde6 kde6-gear)
 
 name=kdeconnect
-version=26.04.3
+version=26.08.0
 release=1
 
-source=(openssl4.patch
-        https://download.kde.org/stable/release-service/$version/src/$name-kde-$version.tar.xz)
+source=(https://download.kde.org/stable/release-service/$version/src/$name-kde-$version.tar.xz)
 
 prepare() {
   mv $name-kde-$version $name-$version
-  cd $name-$version
-  patch -Np1 -i ../openssl4.patch
 }
 build=kde6

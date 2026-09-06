@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	usr/share/doc/
+drwxr-xr-x	root/root	usr/share/doc/HTML/
+drwxr-xr-x	root/root	usr/share/doc/HTML/nl/
+drwxr-xr-x	root/root	usr/share/doc/HTML/nl/kommit/
+-rw-r--r--	root/root	usr/share/doc/HTML/nl/kommit/index.cache.bz2
+-rw-r--r--	root/root	usr/share/doc/HTML/nl/kommit/index.docbook
+drwxr-xr-x	root/root	usr/share/doc/HTML/uk/
+drwxr-xr-x	root/root	usr/share/doc/HTML/uk/kommit/
+-rw-r--r--	root/root	usr/share/doc/HTML/uk/kommit/index.cache.bz2
+-rw-r--r--	root/root	usr/share/doc/HTML/uk/kommit/index.docbook

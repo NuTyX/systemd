@@ -31,7 +31,6 @@ drwxr-xr-x	root/root	usr/include/KPim6/KIMAP/KIMAP/
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/KIMAP/MyRightsJob
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/KIMAP/NamespaceJob
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/KIMAP/QuotaJobBase
--rw-r--r--	root/root	usr/include/KPim6/KIMAP/KIMAP/RFCCodecs
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/KIMAP/RenameJob
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/KIMAP/SearchJob
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/KIMAP/SelectJob
@@ -74,7 +73,6 @@ drwxr-xr-x	root/root	usr/include/KPim6/KIMAP/kimap/
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/MyRightsJob
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/NamespaceJob
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/QuotaJobBase
--rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/RFCCodecs
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/RenameJob
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/SearchJob
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/SelectJob
@@ -118,7 +116,6 @@ drwxr-xr-x	root/root	usr/include/KPim6/KIMAP/kimap/
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/namespacejob.h
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/quotajobbase.h
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/renamejob.h
--rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/rfccodecs.h
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/searchjob.h
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/selectjob.h
 -rw-r--r--	root/root	usr/include/KPim6/KIMAP/kimap/session.h

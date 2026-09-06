@@ -16,7 +16,7 @@ PKGMK_GROUPS=(devel doc man lib)
 PKGMK_LOCALES=()
 
 name=cards
-version=9871fc2
+version=719f3a8
 
 set=(chroot)
 

@@ -6,14 +6,14 @@ license="GPL-2.0-or-later"
 packager="tnut <tnut@nutyx.org>"
 contributors="Spiky"
 
-makedepends=(extra-cmake-modules postgresql qt6-tools
+makedepends=(extra-cmake-modules postgresql qt6-tools shiboken
              boost kio kitemmodels libglvnd libxslt kxmlgui)
 run=(sqlite shared-mime-info)
 
 set=(kde6 kde6-gear)
 
 name=akonadi
-version=26.04.3
+version=26.08.0
 release=1
 
 source=(https://download.kde.org/stable/release-service/$version/src/$name-$version.tar.xz)
@@ -23,6 +23,7 @@ build() {
 	mkdir build && cd build
 	cmake -DCMAKE_INSTALL_PREFIX=/usr  \
 		-DCMAKE_BUILD_TYPE=Release \
+		-DBUILD_PYTHON_BINDINGS=OFF \
 		-DKDE_INSTALL_LIBDIR=lib   \
 		-DBUILD_TESTING=OFF        \
 		-DDATABASE_BACKEND=SQLITE  \

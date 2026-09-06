@@ -139,6 +139,7 @@ drwxr-xr-x	root/root	usr/include/KPim6/AkonadiCore/Akonadi/
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/Akonadi/TagFetchScope
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/Akonadi/TagModel
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/Akonadi/TagModifyJob
+-rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/Akonadi/TagSync
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/Akonadi/TransactionJobs
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/Akonadi/TransactionSequence
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/Akonadi/TrashFilterProxyModel
@@ -246,6 +247,7 @@ drwxr-xr-x	root/root	usr/include/KPim6/AkonadiCore/akonadi/
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/akonadi/tagfetchscope.h
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/akonadi/tagmodel.h
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/akonadi/tagmodifyjob.h
+-rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/akonadi/tagsync.h
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/akonadi/transactionjobs.h
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/akonadi/transactionsequence.h
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/akonadi/trashfilterproxymodel.h
@@ -257,7 +259,6 @@ drwxr-xr-x	root/root	usr/include/KPim6/AkonadiCore/akonadi/
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiCore/akonadi_version.h
 drwxr-xr-x	root/root	usr/include/KPim6/AkonadiWidgets/
 drwxr-xr-x	root/root	usr/include/KPim6/AkonadiWidgets/Akonadi/
--rw-r--r--	root/root	usr/include/KPim6/AkonadiWidgets/Akonadi/AgentActionManager
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiWidgets/Akonadi/AgentConfigurationDialog
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiWidgets/Akonadi/AgentConfigurationWidget
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiWidgets/Akonadi/AgentInstanceWidget
@@ -286,7 +287,6 @@ drwxr-xr-x	root/root	usr/include/KPim6/AkonadiWidgets/Akonadi/
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiWidgets/Akonadi/TagSelectionDialog
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiWidgets/Akonadi/TagWidget
 drwxr-xr-x	root/root	usr/include/KPim6/AkonadiWidgets/akonadi/
--rw-r--r--	root/root	usr/include/KPim6/AkonadiWidgets/akonadi/agentactionmanager.h
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiWidgets/akonadi/agentconfigurationdialog.h
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiWidgets/akonadi/agentconfigurationwidget.h
 -rw-r--r--	root/root	usr/include/KPim6/AkonadiWidgets/akonadi/agentinstancewidget.h

@@ -10,7 +10,7 @@ set=(kde6 kde6-plasma)
 
 name=plasma-pa
 version=6.7.4
-release=1
+release=2
 
 makedepends=(pulseaudio-qt qt6-base qt6-declarative extra-cmake-modules kdoctools
              kcmutils kconfig kcoreaddons kdeclarative kglobalaccel ki18n

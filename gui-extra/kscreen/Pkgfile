@@ -10,7 +10,7 @@ set=(kde6 kde6-plasma)
 
 name=kscreen
 version=6.7.4
-release=1
+release=2
 
 makedepends=(qt6-sensors
              kcmutils kconfig kcoreaddons kdeclarative ki18n kirigami ksvg

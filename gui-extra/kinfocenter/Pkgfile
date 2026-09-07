@@ -10,7 +10,7 @@ set=(kde6 kde6-plasma)
 
 name=kinfocenter
 version=6.7.4
-release=1
+release=2
 
 makedepends=(dmidecode qt6-base qt6-declarative extra-cmake-modules kdoctools
              kauth kcmutils kconfig kcoreaddons ki18n kio kirigami kservice

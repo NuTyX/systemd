@@ -10,7 +10,7 @@ set=(kde6 kde6-plasma)
 
 name=kscreenlocker
 version=6.7.4
-release=1
+release=2
 
 makedepends=(xorg-libx11 libxcb xorg-libxi qt6-base qt6-declarative
              xcb-util-keysyms extra-cmake-modules kcmutils kdoctools

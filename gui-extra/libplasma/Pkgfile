@@ -10,7 +10,7 @@ set=(kde6 kde6-plasma)
 
 name=libplasma
 version=6.7.4
-release=1
+release=2
 
 makedepends=(qt6-base qt6-declarative qt6-tools extra-cmake-modules
              kcmutils kcolorscheme kconfig kcoreaddons kglobalaccel ki18n

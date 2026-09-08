@@ -1,15 +1,14 @@
 description="Libraries and utilities used for parsing XML files."
 url="https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
 
-packager="tnut <tnut@nutyx.org>"
-contributors="Pierre,Fanch,Schrodinger72,Spiky"
+packager="spiky <spiky@nutyx.org>"
+contributors="Pierre,Fanch,Schrodinger72,Tnut"
 
 makedepends=(git meson libtool automake python
              doxygen)
 
 name=libxml2
-version=2.15.3
-release=2
+version=2.15.4
 
 PKGMK_GROUPS=(lib man devel)
 PKGMK_DEPENDS=(doxygen)

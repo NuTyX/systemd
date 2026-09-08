@@ -12,6 +12,7 @@ drwxr-xr-x	root/root	usr/share/doc/curl/
 -rw-r--r--	root/root	usr/share/doc/curl/CONTRIBUTE.md
 -rw-r--r--	root/root	usr/share/doc/curl/CURL-DISABLE.md
 -rw-r--r--	root/root	usr/share/doc/curl/CURLDOWN.md
+-rw-r--r--	root/root	usr/share/doc/curl/DEPENDENCIES.md
 -rw-r--r--	root/root	usr/share/doc/curl/DEPRECATE.md
 -rw-r--r--	root/root	usr/share/doc/curl/DISTROS.md
 -rw-r--r--	root/root	usr/share/doc/curl/EARLY-RELEASE.md
@@ -30,7 +31,6 @@ drwxr-xr-x	root/root	usr/share/doc/curl/
 -rw-r--r--	root/root	usr/share/doc/curl/INSTALL
 -rw-r--r--	root/root	usr/share/doc/curl/INSTALL-CMAKE.md
 -rw-r--r--	root/root	usr/share/doc/curl/INSTALL.md
--rw-r--r--	root/root	usr/share/doc/curl/INTERNALS.md
 -rw-r--r--	root/root	usr/share/doc/curl/IPFS.md
 -rw-r--r--	root/root	usr/share/doc/curl/KNOWN_BUGS.md
 -rw-r--r--	root/root	usr/share/doc/curl/KNOWN_RISKS.md
@@ -172,6 +172,10 @@ drwxr-xr-x	root/root	usr/share/doc/curl/cmdline-opts/
 -rw-r--r--	root/root	usr/share/doc/curl/cmdline-opts/http2.md
 -rw-r--r--	root/root	usr/share/doc/curl/cmdline-opts/http3-only.md
 -rw-r--r--	root/root	usr/share/doc/curl/cmdline-opts/http3.md
+-rw-r--r--	root/root	usr/share/doc/curl/cmdline-opts/httpsig-algo.md
+-rw-r--r--	root/root	usr/share/doc/curl/cmdline-opts/httpsig-headers.md
+-rw-r--r--	root/root	usr/share/doc/curl/cmdline-opts/httpsig-key.md
+-rw-r--r--	root/root	usr/share/doc/curl/cmdline-opts/httpsig-keyid.md
 -rw-r--r--	root/root	usr/share/doc/curl/cmdline-opts/ignore-content-length.md
 -rw-r--r--	root/root	usr/share/doc/curl/cmdline-opts/insecure.md
 -rw-r--r--	root/root	usr/share/doc/curl/cmdline-opts/interface.md
@@ -1264,6 +1268,14 @@ drwxr-xr-x	root/root	usr/share/doc/curl/libcurl/opts/
 -rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTPPOST.md
 -rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTPPROXYTUNNEL.3
 -rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTPPROXYTUNNEL.md
+-rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTPSIG_ALGORITHM.3
+-rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTPSIG_ALGORITHM.md
+-rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTPSIG_HEADERS.3
+-rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTPSIG_HEADERS.md
+-rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTPSIG_KEY.3
+-rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTPSIG_KEY.md
+-rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTPSIG_KEYID.3
+-rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTPSIG_KEYID.md
 -rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTP_CONTENT_DECODING.3
 -rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTP_CONTENT_DECODING.md
 -rw-r--r--	root/root	usr/share/doc/curl/libcurl/opts/CURLOPT_HTTP_TRANSFER_DECODING.3

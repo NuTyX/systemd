@@ -659,6 +659,9 @@ drwxr-xr-x	root/root	usr/share/doc/HTML/ru/kcontrol/joystick/
 -rw-r--r--	root/root	usr/share/doc/HTML/ru/kcontrol/joystick/index.docbook
 -rw-r--r--	root/root	usr/share/doc/HTML/ru/kcontrol/joystick/joystick-calibration.png
 -rw-r--r--	root/root	usr/share/doc/HTML/ru/kcontrol/joystick/joystick-main.png
+drwxr-xr-x	root/root	usr/share/doc/HTML/ru/kcontrol/kcm_recentFiles/
+-rw-r--r--	root/root	usr/share/doc/HTML/ru/kcontrol/kcm_recentFiles/index.cache.bz2
+-rw-r--r--	root/root	usr/share/doc/HTML/ru/kcontrol/kcm_recentFiles/index.docbook
 drwxr-xr-x	root/root	usr/share/doc/HTML/ru/kcontrol/kcmaccess/
 -rw-r--r--	root/root	usr/share/doc/HTML/ru/kcontrol/kcmaccess/index.cache.bz2
 -rw-r--r--	root/root	usr/share/doc/HTML/ru/kcontrol/kcmaccess/index.docbook

@@ -131,6 +131,9 @@ drwxr-xr-x	root/root	usr/include/freerdp3/freerdp/locale/
 -rw-r--r--	root/root	usr/include/freerdp3/freerdp/pointer.h
 -rw-r--r--	root/root	usr/include/freerdp3/freerdp/primary.h
 -rw-r--r--	root/root	usr/include/freerdp3/freerdp/primitives.h
+drwxr-xr-x	root/root	usr/include/freerdp3/freerdp/private/
+-rw-r--r--	root/root	usr/include/freerdp3/freerdp/private/proxy_client.h
+-rw-r--r--	root/root	usr/include/freerdp3/freerdp/private/proxy_server.h
 -rw-r--r--	root/root	usr/include/freerdp3/freerdp/rail.h
 -rw-r--r--	root/root	usr/include/freerdp3/freerdp/redirection.h
 -rw-r--r--	root/root	usr/include/freerdp3/freerdp/scancode.h

@@ -7,9 +7,15 @@ packager="spiky <spiky@nutyx.org>"
 contributors="Pierre,Tnut"
 
 name=libunwind
-version=1.8.2
+version=1.8.3
 
 source=(https://github.com/libunwind/libunwind/releases/download/v$version/$name-$version.tar.gz)
+
+prepare() {
+cd $name-$version
+sed -i '/func.s/s/s//' tests/Gtest-nomalloc.c
+}
+
 build() {
 cd $name-$version
 CFLAGS+=' -fcommon' # https://wiki.gentoo.org/wiki/Gcc_10_porting_notes/fno_common

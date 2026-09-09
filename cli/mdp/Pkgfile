@@ -7,8 +7,7 @@ contributors="Graknu,Tnut"
 makedepends=(git)
 
 name=mdp
-version=1.0.18
-release=2
+version=1.0.19
 
 source=(https://github.com/visit1985/$name/archive/$version.tar.gz)
 

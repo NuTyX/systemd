@@ -7,8 +7,7 @@ contributors="Pierre,Tnut"
 makedepends=(cmake git)
 
 name=vid-stab
-version=1.1.1
-release=2
+version=1.1.2
 
 build() {
 

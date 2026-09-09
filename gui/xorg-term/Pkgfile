@@ -6,7 +6,7 @@ contributors="Pierre,Greg,Remy,Tnut"
 
 alias=(xterm)
 name=xorg-term
-version=410
+version=411
 
 makedepends=(xorg-fontconfig xorg-libxft xorg-libxaw xorg-luit
              xorg-libxkbfile libutempter xorg-xbitmaps freetype)

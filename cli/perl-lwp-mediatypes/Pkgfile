@@ -7,8 +7,7 @@ contributors="Pierre,Tnut"
 run=(perl)
 
 name=perl-lwp-mediatypes
-version=6.04
-release=3
+version=6.05
 
 source=(http://search.cpan.org/CPAN/authors/id/O/OA/OALDERS/LWP-MediaTypes-$version.tar.gz)
 

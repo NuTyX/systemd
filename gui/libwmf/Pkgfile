@@ -4,10 +4,10 @@ url="http://wvware.sourceforge.net/libwmf.html"
 packager="spiky <spiky@nutyx.org>"
 contributors="Alienus,Tnut"
 
-makedepends=(autoconf automake gsfonts libjpeg-turbo xorg-libx11 gdk-pixbuf gtk2 xorg-libxt)
+makedepends=(autoconf automake gsfonts libjpeg-turbo xorg-libx11 gdk-pixbuf xorg-libxt)
 name=libwmf
 
-version=0.2.15
+version=0.2.16
 
 PKGMK_KEEP_SOURCES="no"
 source=(libwmf-freetype.patch

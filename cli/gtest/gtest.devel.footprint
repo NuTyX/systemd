@@ -45,6 +45,12 @@ drwxr-xr-x	root/root	usr/include/gtest/internal/custom/
 -rw-r--r--	root/root	usr/include/gtest/internal/gtest-port.h
 -rw-r--r--	root/root	usr/include/gtest/internal/gtest-string.h
 -rw-r--r--	root/root	usr/include/gtest/internal/gtest-type-util.h
+drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/GTest/
+-rw-r--r--	root/root	usr/lib/cmake/GTest/GTestConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/GTest/GTestConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/GTest/GTestTargets-noconfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/GTest/GTestTargets.cmake
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gmock.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gmock_main.pc

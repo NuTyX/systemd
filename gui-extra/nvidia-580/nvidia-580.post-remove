@@ -1,4 +1,0 @@
-
-ln -sf libEGL.so.1.1.0 /usr/lib/libEGL.so.1
-ln -sf libEGL.so.1 /usr/lib/libEGL.so
-

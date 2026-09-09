@@ -312,6 +312,7 @@ drwxr-xr-x	root/root	usr/share/libwacom/layouts/
 -rw-r--r--	root/root	usr/share/libwacom/layouts/huion-rtp-700.svg
 -rw-r--r--	root/root	usr/share/libwacom/layouts/huion-rts-300.svg
 -rw-r--r--	root/root	usr/share/libwacom/layouts/huion-wh1409.svg
+-rw-r--r--	root/root	usr/share/libwacom/layouts/ugee-m808.svg
 -rw-r--r--	root/root	usr/share/libwacom/layouts/wacom-bamboo-0fg-s-p-alt.svg
 -rw-r--r--	root/root	usr/share/libwacom/layouts/wacom-bamboo-0fg-s-p.svg
 -rw-r--r--	root/root	usr/share/libwacom/layouts/wacom-bamboo-16fg-m-pt.svg
@@ -414,6 +415,7 @@ drwxr-xr-x	root/root	usr/share/libwacom/layouts/
 -rw-r--r--	root/root	usr/share/libwacom/starlite-mk-v.tablet
 -rw-r--r--	root/root	usr/share/libwacom/surface-go-2.tablet
 -rw-r--r--	root/root	usr/share/libwacom/surface-go.tablet
+-rw-r--r--	root/root	usr/share/libwacom/ugee-m808.tablet
 -rw-r--r--	root/root	usr/share/libwacom/wacom-bamboo-0fg-m-p-alt.tablet
 -rw-r--r--	root/root	usr/share/libwacom/wacom-bamboo-0fg-s-p-alt.tablet
 -rw-r--r--	root/root	usr/share/libwacom/wacom-bamboo-0fg-s-p.tablet
@@ -758,6 +760,7 @@ drwxr-xr-x	root/root	usr/share/libwacom/layouts/
 -rw-r--r--	root/root	usr/share/libwacom/wacom-isdv4-525d.tablet
 -rw-r--r--	root/root	usr/share/libwacom/wacom-isdv4-5269.tablet
 -rw-r--r--	root/root	usr/share/libwacom/wacom-isdv4-526a.tablet
+-rw-r--r--	root/root	usr/share/libwacom/wacom-isdv4-526b.tablet
 -rw-r--r--	root/root	usr/share/libwacom/wacom-isdv4-526c.tablet
 -rw-r--r--	root/root	usr/share/libwacom/wacom-isdv4-5276.tablet
 -rw-r--r--	root/root	usr/share/libwacom/wacom-isdv4-5277.tablet

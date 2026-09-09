@@ -431,6 +431,7 @@ drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/DefaultTable.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/E_B_D_T_.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/E_B_L_C_.py
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/E_B_S_C_.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/F_F_T_M_.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/F__e_a_t.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/G_D_E_F_.py
@@ -484,6 +485,7 @@ drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__p
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/DefaultTable.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/E_B_D_T_.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/E_B_L_C_.cpython-314.pyc
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/E_B_S_C_.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/F_F_T_M_.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/F__e_a_t.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/G_D_E_F_.cpython-314.pyc
@@ -525,7 +527,10 @@ drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__p
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/__init__.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/_a_n_k_r.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/_a_v_a_r.cpython-314.pyc
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/_b_d_a_t.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/_b_g_c_l.cpython-314.pyc
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/_b_h_e_d.cpython-314.pyc
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/_b_l_o_c.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/_b_s_l_n.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/_c_i_d_g.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/_c_m_a_p.cpython-314.pyc
@@ -572,7 +577,10 @@ drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__p
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/__pycache__/ttProgram.cpython-314.pyc
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/_a_n_k_r.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/_a_v_a_r.py
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/_b_d_a_t.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/_b_g_c_l.py
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/_b_h_e_d.py
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/_b_l_o_c.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/_b_s_l_n.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/_c_i_d_g.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/ttLib/tables/_c_m_a_p.py
@@ -755,17 +763,17 @@ drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fontTools/voltLib/__pycach
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/voltLib/lexer.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/voltLib/parser.py
 -rw-r--r--	root/root	usr/lib/python3.14/site-packages/fontTools/voltLib/voltToFea.py
-drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fonttools-4.63.0.dist-info/
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.63.0.dist-info/INSTALLER
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.63.0.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.63.0.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.63.0.dist-info/REQUESTED (EMPTY)
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.63.0.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.63.0.dist-info/entry_points.txt
-drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fonttools-4.63.0.dist-info/licenses/
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.63.0.dist-info/licenses/LICENSE
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.63.0.dist-info/licenses/LICENSE.external
--rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.63.0.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fonttools-4.64.0.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.64.0.dist-info/INSTALLER
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.64.0.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.64.0.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.64.0.dist-info/REQUESTED (EMPTY)
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.64.0.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.64.0.dist-info/entry_points.txt
+drwxr-xr-x	root/root	usr/lib/python3.14/site-packages/fonttools-4.64.0.dist-info/licenses/
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.64.0.dist-info/licenses/LICENSE
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.64.0.dist-info/licenses/LICENSE.external
+-rw-r--r--	root/root	usr/lib/python3.14/site-packages/fonttools-4.64.0.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/licenses/
 drwxr-xr-x	root/root	usr/share/licenses/python-fonttools/

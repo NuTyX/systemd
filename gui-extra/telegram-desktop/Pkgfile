@@ -12,16 +12,16 @@ run=(gtk-update-icon-cache shared-mime-info hicolor-icon-theme desktop-file-util
 alias=(telegram)
 
 name=telegram-desktop
-version=7.1.5
+version=7.2.8
 
-source=(https://updates.tdesktop.com/tlinux/tsetup.$version.tar.xz
-       	tg.protocol https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon16.png
-	https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon32.png
-	https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon48.png
-	https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon64.png
-	https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon128.png
-	https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon256.png
-	https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon512.png
+source=(https://github.com/telegramdesktop/tdesktop/releases/download/v$version/td-setup-linux-x64-$version.tar.xz
+        tg.protocol https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon16.png
+        https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon32.png
+        https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon48.png
+        https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon64.png
+        https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon128.png
+        https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon256.png
+        https://github.com/telegramdesktop/tdesktop/raw/master/Telegram/Resources/art/icon512.png
         telegram-desktop.desktop)
 
 build() {

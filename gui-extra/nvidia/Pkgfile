@@ -10,7 +10,7 @@ run=(libglvnd)
 conflicts=(nvidia-390 nvidia-470)
 
 name=nvidia
-version=610.57.04
+version=615.71.09
 release=1
 
 PKGMK_IGNORE_RUNTIMELIBS="yes"
@@ -34,8 +34,10 @@ cd NVIDIA-Linux-x86_64-${version}
     ln -sr "${PKG}/usr/lib/libnvidia-allocator.so.${version}" "${PKG}/usr/lib/gbm/nvidia-drm_gbm.so"
 
     # firmware
-    # is gone
-    # install -Dm644 firmware/gsp.bin "${PKG}/usr/lib/firmware/nvidia/${version}/gsp.bin"
+    for i in firmware/*
+    do
+      install -Dm644 $i "${PKG}/lib/firmware/nvidia/${version}/$(basename $i)"
+    done
 
     # GLX extension module for X
     install -Dm755 "libglxserver_nvidia.so.${version}" "${PKG}/usr/lib/nvidia/xorg/libglxserver_nvidia.so.${version}"
@@ -62,6 +64,8 @@ cd NVIDIA-Linux-x86_64-${version}
     install -Dm755 "libnvidia-encode.so.${version}" "${PKG}/usr/lib/libnvidia-encode.so.${version}"
     install -Dm755 "libnvidia-cfg.so.${version}" "${PKG}/usr/lib/libnvidia-cfg.so.${version}"
     install -Dm755 "libnvidia-ml.so.${version}" "${PKG}/usr/lib/libnvidia-ml.so.${version}"
+    install -Dm755 "libnvidia-fmdrv.so.${version}" "${PKG}/usr/lib/libnvidia-fmdrv.so.${version}"
+    install -Dm755 "libnvidia-imex.so.${version}" "${PKG}/usr/lib/libnvidia-imex.so.${version}"
     install -Dm755 "libnvidia-glvkspirv.so.${version}" "${PKG}/usr/lib/libnvidia-glvkspirv.so.${version}"
     install -Dm755 "libnvidia-allocator.so.${version}" "${PKG}/usr/lib/libnvidia-allocator.so.${version}"
     install -Dm755 "libnvidia-gpucomp.so.${version}" "${PKG}/usr/lib/libnvidia-gpucomp.so.${version}"

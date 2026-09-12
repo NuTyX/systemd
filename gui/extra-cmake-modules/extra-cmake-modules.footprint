@@ -62,8 +62,8 @@ drwxr-xr-x	root/root	usr/share/ECM/kde-modules/
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/clang-format.cmake
 drwxr-xr-x	root/root	usr/share/ECM/kde-modules/kde-git-commit-hooks/
 -rwxr-xr-x	root/root	usr/share/ECM/kde-modules/kde-git-commit-hooks/clang-format.sh
--rwxr-xr-x	root/root	usr/share/ECM/kde-modules/kde-git-commit-hooks/combined.schema.json.in
--rwxr-xr-x	root/root	usr/share/ECM/kde-modules/kde-git-commit-hooks/combined.schema.json.in.license
+-rw-r--r--	root/root	usr/share/ECM/kde-modules/kde-git-commit-hooks/combined.schema.json.in
+-rw-r--r--	root/root	usr/share/ECM/kde-modules/kde-git-commit-hooks/combined.schema.json.in.license
 -rwxr-xr-x	root/root	usr/share/ECM/kde-modules/kde-git-commit-hooks/json-schema.py
 -rwxr-xr-x	root/root	usr/share/ECM/kde-modules/kde-git-commit-hooks/pre-commit.in
 -rw-r--r--	root/root	usr/share/ECM/kde-modules/prefix.sh.cmake
@@ -96,6 +96,7 @@ drwxr-xr-x	root/root	usr/share/ECM/modules/
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMGenerateQDoc.cmake
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMGenerateQmlTypes.cmake
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMInstallIcons.cmake
+-rw-r--r--	root/root	usr/share/ECM/modules/ECMInstalledLibraryCheck.cmake
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMMarkAsTest.cmake
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMMarkNonGuiExecutable.cmake
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMOptionalAddSubdirectory.cmake
@@ -126,6 +127,7 @@ drwxr-xr-x	root/root	usr/share/ECM/modules/
 -rw-r--r--	root/root	usr/share/ECM/modules/ECMWinResolveSymlinks.cmake
 -rw-r--r--	root/root	usr/share/ECM/modules/QtVersionOption.cmake
 -rw-r--r--	root/root	usr/share/ECM/modules/check-outbound-license.py
+-rw-r--r--	root/root	usr/share/ECM/modules/ecm_create_installed_library_check.cmake
 -rw-r--r--	root/root	usr/share/ECM/modules/ecm_uninstall.cmake.in
 drwxr-xr-x	root/root	usr/share/ECM/test-modules/
 -rw-r--r--	root/root	usr/share/ECM/test-modules/test_execute_and_compare.cmake

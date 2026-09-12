@@ -84,6 +84,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/22x22/battery-low-symbolic.s
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/car-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/com.kdab.trinket-active_white.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/com.kdab.trinket-inactive_white.svg
+-rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/com.obsproject.Studio-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/computer-laptop-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/contacts-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/device-notifier-symbolic.svg
@@ -106,6 +107,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/22x22/drive-removable-media-
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/go-previous-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/go-up-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/handset-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/im-user-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/input-caps-on-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/input-combo-on-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/22x22/input-keyboard-symbolic.svg -> input-keyboard-virtual-on-symbolic.svg
@@ -121,6 +123,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/22x22/input-keyboard-symboli
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/kget-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/kgpg-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/klipper-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/ktimer-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/ktorrent-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/mark-location-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/media-playback-paused-symbolic.svg
@@ -217,7 +220,6 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/22x22/notifications-disabled
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/22x22/notifications-disabled.svg -> notification-disabled-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/22x22/notifications-enabled-symbolic.svg -> notification-inactive-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/22x22/notifications-enabled.svg -> notification-inactive-symbolic.svg
--rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/obs-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/org.kde.neochat.tray.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/org.kde.tokodon-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/22x22/pamac-tray-no-update.svg
@@ -385,6 +387,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/24x24/actor-symbolic.svg -> 
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/camera-video-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/camera-web-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/car-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/com.obsproject.Studio-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/computer-laptop-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/contacts-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/device-notifier-symbolic.svg
@@ -407,6 +410,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/24x24/actor-symbolic.svg -> 
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/go-previous-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/go-up-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/handset-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/24x24/im-user-symbolic.svg -> contacts-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/input-caps-on-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/input-combo-on-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/24x24/input-keyboard-symbolic.svg -> input-keyboard-virtual-on-symbolic.svg
@@ -422,6 +426,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/24x24/input-keyboard-symboli
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/kget-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/kgpg-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/klipper-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/ktimer-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/ktorrent-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/mark-location-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/media-playback-paused-symbolic.svg
@@ -518,7 +523,6 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/24x24/notifications-disabled
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/24x24/notifications-disabled.svg -> notification-disabled-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/24x24/notifications-enabled-symbolic.svg -> notification-inactive-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/24x24/notifications-enabled.svg -> notification-inactive-symbolic.svg
--rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/obs-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/org.kde.neochat.tray.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/org.kde.tokodon-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/24x24/pamac-tray-no-update.svg
@@ -631,6 +635,8 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/applets/32x32/
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/audio-volume-medium-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/audio-volume-muted-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/camera-photo-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/com.obsproject.Studio-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/contacts-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/device-notifier-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/disk-quota-critical-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/disk-quota-high-symbolic.svg
@@ -648,11 +654,13 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/applets/32x32/
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/go-previous-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/go-up-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/handset-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/im-user-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/juk-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/kdeconnect-tray-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/kget-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/kgpg-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/klipper-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/ktimer-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/ktorrent-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/mark-location-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/media-playback-paused-symbolic.svg
@@ -693,7 +701,6 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/32x32/notifications-disabled
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/32x32/notifications-disabled.svg -> notification-disabled-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/32x32/notifications-enabled-symbolic.svg -> notification-inactive-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/applets/32x32/notifications-enabled.svg -> notification-inactive-symbolic.svg
--rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/obs-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/org.kde.neochat.tray.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/org.kde.tokodon-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/oxygen/applets/32x32/pamac-tray-no-update.svg
@@ -896,6 +903,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/apps/kbugbuster.png -> 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kde-gtk-config.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kde-windows.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kde.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kdebugsettings.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/apps/kdeconnect.png -> ../categories/preferences-kde-connect.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kdevelop.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kdf.png
@@ -914,6 +922,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/apps/kmail.png -> inter
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/knewsticker.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/knotes.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kolf.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kolourpaint.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kommit.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/konqueror.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kontact-import-wizard.png
@@ -928,10 +937,12 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/128x128/apps/kmail.png -> inter
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/krdc.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/krfb.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/krita.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kronometer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/ksnapshot.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/ksniffer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/ksudoku.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kthesaurus.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/ktimer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/ktip.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/ktorrent.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/128x128/apps/kuickshow.png
@@ -2734,6 +2745,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/16x16/apps/knetattach.png -> ..
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/knewsticker.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/knotes.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/kolf.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/kolourpaint.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/kommit.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/konqueror.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/16x16/apps/kontact.png
@@ -3985,6 +3997,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/actions/go-home-large.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/go-next-view-page.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/go-next-view.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/go-next.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/go-parent-folder.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/go-previous-context.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/go-previous-use.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/actions/go-previous-view-page.png
@@ -4674,6 +4687,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/apps/kget.png -> ktorrent
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/22x22/apps/knetattach.png -> ../actions/folder-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/knotes.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/kolf.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/kolourpaint.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/kommit.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/konqueror.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/22x22/apps/kontact.png
@@ -5701,6 +5715,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/256x256/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/calligrawords.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/clock.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/digikam.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/filelight.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/help-browser.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/hotspot.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/internet-web-browser.png
@@ -5710,6 +5725,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/256x256/apps/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/kbruch.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/kchart.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/kde-windows.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/kdebugsettings.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/apps/kdeconnect.png -> ../categories/preferences-kde-connect.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/kdevelop.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/kdf.png
@@ -5721,10 +5737,13 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/apps/kdeconnect.png -> 
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/kmag.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/kmail2.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/apps/knetattach.png -> ../actions/archive-insert-directory.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/kolourpaint.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/kommit.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/konqueror.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/kontact-import-wizard.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/korgac.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/kronometer.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/ktimer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/kwalletmanager.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/lokalize.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/apps/mameexecutor.png
@@ -5771,6 +5790,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/base/256x256/categories/
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/categories/applications-other.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/categories/applications-science.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/categories/applications-system.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/categories/preferences-applications-permissions.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/categories/preferences-desktop.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/256x256/categories/preferences-devices-printer.png -> ../devices/printer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/256x256/categories/preferences-kde-connect.png
@@ -6614,6 +6634,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/actions/globe.png -> ../c
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/go-next-view-page.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/go-next-view.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/go-next.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/go-parent-folder.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/go-previous-context.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/go-previous-use.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/actions/go-previous-view-page.png
@@ -7112,6 +7133,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/apps/knetattach.png -> ..
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/knewsticker.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/knotes.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/kolf.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/kolourpaint.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/kommit.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/konqueror.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/kontact.png
@@ -7129,6 +7151,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/32x32/apps/korg-todo.png -> ../
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/ksniffer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/ksudoku.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/kthesaurus.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/ktimer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/ktip.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/ktorrent.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/32x32/apps/kuickshow.png
@@ -8278,6 +8301,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/actions/globe.png -> ../c
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/go-next-view-page.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/go-next-view.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/go-next.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/go-parent-folder.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/go-previous-context.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/go-previous-use.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/actions/go-previous-view-page.png
@@ -8752,6 +8776,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/apps/knetattach.png -> ..
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/knewsticker.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/knotes.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/kolf.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/kolourpaint.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/kommit.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/konqueror.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/kontact.png
@@ -8768,6 +8793,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/48x48/apps/korg-todo.png -> ../
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/ksniffer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/ksudoku.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/kthesaurus.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/ktimer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/ktip.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/ktorrent.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/48x48/apps/kuickshow.png
@@ -9783,6 +9809,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/apps/kbugbuster.png -> ..
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kde-gtk-config.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kde-windows.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kde.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kdebugsettings.png
 lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/apps/kdeconnect.png -> ../categories/preferences-kde-connect.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kdevelop.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kdf.png
@@ -9800,6 +9827,7 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/apps/kfind.png -> ../acti
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/knewsticker.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/knotes.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kolf.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kolourpaint.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kommit.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/konqueror.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kontact-import-wizard.png
@@ -9814,10 +9842,12 @@ lrwxrwxrwx	root/root	usr/share/icons/oxygen/base/64x64/apps/kfind.png -> ../acti
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/krdc.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/krfb.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/krita.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kronometer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/ksnapshot.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/ksniffer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/ksudoku.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kthesaurus.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/ktimer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/ktip.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/ktorrent.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/base/64x64/apps/kuickshow.png
